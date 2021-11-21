@@ -7,6 +7,7 @@
 ## Features
 * Two seperate authentication page for customer and seller.
 * Find Nearby Stores using the Map GeoLocation.
+* Filter products by location.
 * Order cheapest product by comparing the price from nearby stores.
 * Seller can analyze the monthly report (such as total monthly income, product sales , order status , etc) on the seller dashboard.
 
