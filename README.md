@@ -1,5 +1,14 @@
 # Medstore-mern
 ## Medical E-commerce Web Application
+## About the App
+* Frontend : ReactJS
+* Backend : Express, NodeJS
+* Database : MongoDB
+## Features
+* Two seperate authentication page for customer and seller.
+* Find Nearby Stores using the Map GeoLocation.
+* Order cheapest product by comparing the price from nearby stores.
+* Seller can analyze the monthly report (such as total monthly income, product sales , order status , etc) on the seller dashboard.
 
 ## Screen shots 📸
 ## 1. Project Architecture
@@ -39,7 +48,7 @@
 |![alt text][customer details]  | 
 
 
-|    Single Product      |    
+|    Single Product Page      |    
 | ------------- |
 |![alt text][single product]  | 
 
@@ -49,7 +58,7 @@
 |![alt text][customer cart]  | 
 
 
-|    Customer Order    |    
+|    Customer Order History   |    
 | ------------- |
 |![alt text][customer order]  | 
 
