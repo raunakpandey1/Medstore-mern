@@ -1,0 +1,221 @@
+.topbar{
+    height: 50px;
+    width: 100%;
+    background-color: #283290;
+    box-shadow: 0px 0px 10px #283290;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.topbarWrapper{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.homeLogo{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #00ff0d;
+    display: none;
+}
+.homeLogo1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #00ff0d;
+}
+.topbarList{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    right: 50px;
+    list-style-type: none;
+}
+.topbarList li{
+    margin: 25px;
+}
+.nav-link{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link:hover{
+    color: #20d34a !important;
+}
+
+.topbarProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+}
+.topbarProfImg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: auto;
+}
+.topbarEmail{
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+    border:none;
+}
+
+.cartDiv{
+    margin-left: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.cartNumber{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    background-color: red;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    top: -5px;
+    right: -10px;
+    box-shadow: 0px 0px 10px black;
+}
+.fa-shopping-cart{
+    color: white;
+    font-size: 22px;
+}
+
+.menu-btn {
+    color: white;
+    padding-right: 16px;
+    font-size: 18px;
+    border: none;
+ }
+ .menu-btn1{
+    color: white;
+    padding-right: 16px;
+    font-size: 18px;
+    border: none;
+    margin: 8px;
+    list-style: none;
+ }
+ .fa-caret-down{
+     padding-left: 5px;
+ }
+ .dropdown-menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .dropdown-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .menu-content {
+    display: none;
+    position: absolute;
+    top: 80px;
+    background-color:white;
+    min-width: 180px;
+    z-index: 1;
+ }
+ .menu-content1 {
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color:white;
+    min-width: 180px;
+    z-index: 1;
+ }
+ nav{
+    background-color:white;
+ }
+ .links,.links-hidden{
+    display: inline-block;
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .links-hidden{
+    display: block;
+ }
+ .links{
+    display: inline-block;
+ }
+ .links-hidden:hover,.links:hover {
+    color: rgb(78, 78, 78);
+ }
+ .dropdown-menu:hover .menu-content {
+    display: block;
+    
+ }
+ .dropdown-menu:hover .menu-content1 {
+    display: block;
+    
+ }
+ .drawerButton{
+    display: none;
+}
+
+ @media only screen and (max-width: 650px) {
+    .drawerButton{
+        display: flex;
+    }
+    .cartDiv{
+        margin-left: 5px;
+    }
+    .topbarProfile{
+        right: 20px;
+    }
+    .homeLogo{
+        font-size: 22px;
+        font-weight: 700;
+        margin-left: 10px;
+        color: #00ff0d;
+        display:flex;
+    }
+    .homeLogo1{
+        display: none;
+    }
+    .nav-link{
+        margin: 5px;
+    }
+    .topbarProfImg{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .menu-btn {
+        background-color: #283290;
+        color: white;
+        padding-right: 5px;
+        font-size: 15px;
+     }
+     .menu-btn1 {
+         margin-left: 5px;
+        background-color: #283290;
+        color: white;
+        padding-right: 5px;
+        font-size: 15px;
+     }
+     .nav-link{
+        font-size: 15px;
+    }
+    .topbarList{
+        right: 20px;
+    }
+}

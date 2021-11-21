@@ -1,0 +1,143 @@
+.heading h1{
+    color :red;
+}
+
+.dashboard {
+    width: 100%;
+    display: flx;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+  }
+  
+  .dashboardContainer {
+    border-left: 1px solid rgba(0, 0, 0, 0.13);
+    background-color: rgb(255, 255, 255);
+    padding: 3rem 0;
+  }
+  
+  .dashboardContainer > h1 {
+    color: rgba(0, 0, 0, 0.733);
+    font: 300 2rem "Roboto";
+    text-align: center;
+    width: 50%;
+    padding: 0.5rem;
+    margin: -23px auto;;
+  }
+  .storename  {
+     color: red;
+  }
+  
+  .dashboardSummary {
+    margin: 2rem 0;
+    padding: 0px 30px;
+  }
+  
+  .dashboardSummary > div {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+  }
+  .dashboardSummary > div > p {
+    background-color: rgba(70, 117, 218, 0.932);
+    color: white;
+    font: 300 1.3rem "Roboto";
+    text-align: center;
+    padding: 1.5rem;
+     
+    margin: 0 2rem;
+  }
+  
+  /* .dashboardSummaryBox2 > a {
+    color: rgb(0, 0, 0);
+    font: 300 1.5rem "Roboto";
+    text-align: center;
+    background-color: rgb(255, 233, 174);
+    text-decoration: none;
+    padding: 1rem;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } */
+  .dsbCard{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 233, 174);
+    margin: 3rem;
+    flex: 3.3;
+    margin: 10px 80px;
+    text-align: center;
+    border-radius: 10px;
+    font: 300 1.5rem "Roboto";
+  }
+  .dashboardSummaryBox2 > div:first-child {
+    background-color: rgb(255, 110, 110);
+    color: rgb(255, 255, 255);
+  }
+  
+  .dashboardSummaryBox2 > div:last-child {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  .lineChart {
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  .doughnutChart {
+    width: 25vw;
+    margin: auto  ;
+    text-align: center;
+    margin-bottom: 15vh;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .dashboard {
+      grid-template-columns: 1fr;
+    }
+  
+    .dashboardContainer {
+      border-left: none;
+    }
+  
+    .dashboardSummary > div > p {
+      margin: 0;
+    }
+    .dashboardSummary {
+      margin: 2rem 0;
+      padding: 0px 10px;
+    }
+    /* .dashboardSummaryBox2 > a {
+     
+      font: 300 0.6rem "Roboto";
+      padding: 1rem;
+      width: 6vmax;
+      height: 6vmax;
+      margin: 1rem;
+      border-radius: 10px;
+      display: flex;
+       
+    } */
+    .lineChart {
+      width: 95%;
+    }
+    .dsbCard{
+      background-color: rgb(255, 233, 174);
+      margin: 3rem;
+      flex: 3.3;
+      margin: 10px;
+      text-align: center;
+      border-radius: 10px;
+      font: 300 1rem "Roboto";
+    }
+    .doughnutChart {
+      width: 80%;
+    }
+    
+  }

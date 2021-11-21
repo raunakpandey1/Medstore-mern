@@ -1,0 +1,116 @@
+/* cart item design */
+.historyCarditem{
+    background-color: white;
+}
+.historyCarditemWrapper{
+    margin: 10px 2px;
+    padding: 10px;
+    display: flex;
+}
+
+.historyCardHeader{
+    display: flex;
+}
+
+.hcleft{
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+}
+.hcsecDiv{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.c2{
+    display: flex;
+}
+.sec1{
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2{
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec3{
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historyCardHeaderImg{
+    height: 70px;
+    width: 70px;
+}
+.headerText{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+}
+.quantityDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+}
+.headerText h4{
+    margin: 4px 0px;
+    padding: 0;
+}
+.hcPrice{
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+}
+.statusTxt, .totPrice, .itemQuan{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.historyTS{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+.orderTime{
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(92, 92, 92);
+}
+
+@media only screen and (max-width: 650px) {
+    .historyCarditemWrapper{
+        flex-direction: column;
+    }
+    .headerText{
+        font-size: 15px;
+    }
+    .sec1{
+        flex: 0.3;
+    }
+    .sec2{
+        flex: 0.3;
+    }
+    .sec3{
+        flex: 0.4;
+    }
+    .ciPrice{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .statusTxt, .totPrice, .itemQuan{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .orderTime{
+        font-weight: 500;
+        font-size: 14px;
+        color: rgb(92, 92, 92);
+    }
+}

@@ -1,0 +1,43 @@
+.storedashboard{
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-color: #f0f2f5;
+    display: flex;
+}
+/* .left{
+    flex: 0.2;
+    height: calc(100vh - 50px);
+    background-color:#283290;
+}
+.right{
+    flex: 0.8;
+    overflow-y: scroll;
+    margin: 20px 0px;
+} */
+.dashboardul{
+    overflow:hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.dashboardListItem{
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    list-style-type: none;
+    padding: 20px 30px;
+    padding-left: 40px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    color: white;
+    margin: 10px 15px;
+    transition: all 0.2s ease;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.dashboardListItem:hover{
+    background-color: #5a63b9;
+}
+
+ 

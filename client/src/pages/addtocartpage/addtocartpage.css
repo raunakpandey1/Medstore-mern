@@ -1,0 +1,131 @@
+.addtocartpage{
+    display: flex;
+    justify-content: center;
+    background-color: #f0f2f5;
+    height: calc(100vh - 50px);
+}
+.addtocartpageWrapper{
+    margin: 20px 0px;
+    width: 80%;
+}
+.footer{
+    float: right;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.gt{
+    margin-right: 50px;
+}
+
+.ckButton{
+    background-color: #42b72a;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    height: 40px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.idTest{
+    height: 10px;
+    font-size: 17px;
+    padding: 10px;
+}
+.idButton{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* cart item design */
+.cartitem{
+    margin: 10px 2px;
+    background-color: white;
+}
+.cartitemWrapper{
+    padding: 10px;
+    display: flex;
+}
+
+.cartHeader{
+    display: flex;
+}
+.chleft{
+    flex: 0.7;
+    display: flex;
+    flex-direction: row;
+}
+.removeCart{
+    cursor: pointer;
+}
+.secDiv{
+    flex: 0.3;
+    display: flex;
+}
+.chmid{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chright{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartItemSpinner{
+    padding: 8px;
+}
+
+.cartHeaderImg{
+    height: 70px;
+    width: 70px;
+}
+.headerText{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+}
+.quantityDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+}
+.headerText h4{
+    margin: 4px 0px;
+    padding: 0;
+}
+.ciPrice{
+    font-weight: 500;
+    font-size: 18px;
+}
+.removeCart{
+    color: red;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .addtocartpageWrapper{
+        margin: 10px 0px;
+        width: 95%;
+        height: calc(100vh - 50px);
+    }
+    .cartitemWrapper{
+        flex-direction: column;
+    }
+}

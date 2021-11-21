@@ -1,0 +1,29 @@
+.statusButton{
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.statusButton{
+    align-items: center;
+    background-color: #283290;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    margin: 20px 0px;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.statusButton:disabled{
+    cursor: not-allowed;
+}
+.crBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

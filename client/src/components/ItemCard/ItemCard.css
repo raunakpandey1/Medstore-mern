@@ -1,0 +1,55 @@
+.productCards{
+    background-color: white;
+    width: 30%;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.productCards:hover{
+    box-shadow: 0px 0px 27px -10px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 0px 27px -10px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 27px -10px rgba(0,0,0,0.35);
+}
+.productCardWrapper{
+    padding: 10px;
+}
+
+.productImg{
+    width: 100%;
+    object-fit: contain;
+    height: 140px;
+    margin: 0px;
+    padding: 0px;
+}
+.productTitle{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+.productPrice{
+    font-weight: bold;
+    margin: 0px;
+}
+.productPriceStrike{
+    color: grey;
+    font-size: 15px;
+}
+.cardstorename{
+    color: grey;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    .productCards{
+        width: 47%;
+    }
+    .productImg{
+        width: 100%;
+        object-fit: contain;
+        height: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+}

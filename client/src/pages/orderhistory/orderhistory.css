@@ -1,0 +1,17 @@
+.orderhistory{
+    display: flex;
+    justify-content: center;
+    background-color: #f0f2f5;
+    height: calc(100vh - 50px);
+}
+.orderHistoryWrapper{
+    margin: 10px 50px;
+    width: 80%;
+}
+
+@media only screen and (max-width: 650px) {
+    .orderHistoryWrapper{
+        margin: 5px;
+        width: unset;
+    }
+}

@@ -1,0 +1,10 @@
+.App{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.appWrapper{
+    padding-top: 50px;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+}
