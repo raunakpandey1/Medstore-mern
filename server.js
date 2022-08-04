@@ -1,6 +1,7 @@
 const express = require("express");
 require('dotenv').config({path: "config.env"})
 const app = express();
+
 const connectDB = require("./configuration/db");
 const errorHandler = require("./middleware/error");
 
