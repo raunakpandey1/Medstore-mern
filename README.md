@@ -3,6 +3,7 @@
 ## About the App
 * Frontend : ReactJS
 * Backend : Express, NodeJS
+* Backend : Spring Boot (Newly added)
 * Database : MongoDB
 ## Features
 * Two seperate authentication page for customer and seller.
